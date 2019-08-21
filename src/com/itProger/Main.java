@@ -14,10 +14,10 @@ public class Main {
         String str2 = scanner.nextLine();
 
         if (str1.length() > str2.length()){
-            System.out.println(str1);
+            System.out.println("Строка с наибольшей длинной: " + str1);
         }
         else if (str1.length() < str2.length()){
-            System.out.println(str2);
+            System.out.println("Строка с наибольшей длинной: " + str2);
         }
         else{
             System.out.println("Длина 1-ой строки равна длине 2-ой строки");
