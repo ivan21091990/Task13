@@ -14,10 +14,10 @@ public class Main {
         String str2 = scanner.nextLine();
 
         if (str1.length() > str2.length()){
-            System.out.println("Длина 1-ой строки больше длины 2-ой строки");
+            System.out.println(str1);
         }
         else if (str1.length() < str2.length()){
-            System.out.println("Длина 1-ой строки меньше длины 2-ой строки");
+            System.out.println(str2);
         }
         else{
             System.out.println("Длина 1-ой строки равна длине 2-ой строки");
